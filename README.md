@@ -2,7 +2,9 @@
 
 A polished browser-based Snake game built with vanilla HTML, CSS, and JavaScript, suitable for GitHub portfolio presentation.
 
-> Preview image is not currently included in this repository. Add your screenshot near the top of this README later if desired.
+## Preview
+
+![preview](./1.png)
 
 ## Project Overview
 
