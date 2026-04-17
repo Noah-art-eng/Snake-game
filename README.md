@@ -1,80 +1,47 @@
-# Snake Game (Vanilla JS Portfolio Project)
+# Snake Game
 
-A polished browser-based Snake game built with **pure HTML, CSS, and JavaScript** in a **single file**.  
-No frameworks, no build tools, no dependencies — just double-click and play.
+A polished browser-based Snake game built with vanilla HTML, CSS, and JavaScript, suitable for GitHub portfolio presentation.
+
+> Preview image is not currently included in this repository. Add your screenshot near the top of this README later if desired.
 
 ## Project Overview
 
-This project recreates the classic Snake gameplay and upgrades it into a portfolio-ready frontend showcase with:
-
-- modern card-style UI
-- multilingual support (Chinese / English)
-- persistent settings and high score
-- smooth interaction design and clear game state feedback
+This project refines a classic Snake implementation into a cleaner frontend showcase while keeping the gameplay lightweight and easy to run locally.
 
 ## Features
 
-### Core Gameplay
-- Classic Snake rules
-- Keyboard controls: `Arrow Keys` and `WASD`
-- Score tracking
-- Start, Pause/Resume, Restart
-- Game-over handling with final score
-
-### Portfolio Enhancements
-- High score persistence via `localStorage`
-- Difficulty/speed levels: Easy / Normal / Hard
-- Visible game status: `Ready`, `Playing`, `Paused`, `Game Over`
-- Theme switching: Light / Dark / Forest
-- Intro instructions before play
-- Subtle UI animations (hover, panel transitions)
-- Mobile usage tip (keyboard recommended)
-
-### i18n (Chinese / English)
-- One-click language toggle
-- All texts are translated (titles, labels, buttons, hints, status)
-- Unified dictionary structure:
-  ```js
-  const i18n = { zh: {...}, en: {...} }
-  ```
-- `t(key)` helper for text lookup
-- Instant language update without page reload
-- Language preference saved in `localStorage`
+- Classic Snake gameplay on a canvas grid
+- Start, Pause/Resume, and Restart controls
+- Real-time score and persistent high score with `localStorage`
+- Difficulty selection: Easy / Normal / Hard
+- Clear status system: Ready, Playing, Paused, Game Over
+- Keyboard controls (`Arrow Keys` and `W/A/S/D`) with `Space` for pause/resume
+- Inline game feedback messages for smoother UX transitions
 
 ## Tech Stack
 
-- **HTML5**
-- **CSS3** (custom properties, responsive layout, transitions)
-- **Vanilla JavaScript**
-- **Canvas API** for rendering the game board
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Canvas API
 
-## Run Locally
+## How to Run
 
-1. Save the file as `snakeGame01.html`
-2. Double-click it to open in a browser  
-   (or drag it into a browser tab)
+1. Open `index.html` in any modern browser.
+2. Click **Start** to begin playing.
 
-No installation required.
+No build tools or dependencies are required.
 
 ## Controls
 
-- Move: `↑ ↓ ← →` or `W A S D`
-- Pause / Resume: `Space` or pause button
-- Start: Start button
-- Restart: Restart button
+- Move: `Arrow Keys` or `W / A / S / D`
+- Start: `Start` button
+- Pause / Resume: `Pause` button or `Space`
+- Restart: `Restart` button
 
-## Why This Project Stands Out
+## Project Highlights
 
-- Single-file architecture with clear modular logic
-- Clean state management (`ready / playing / paused / over`)
-- Independent structures for i18n and themes
-- Safe `localStorage` read/write handling
-- Portfolio-friendly UI with consistent visual language
-
-## Future Improvements
-
-- Touch controls for mobile gameplay
-- Sound effects and background music toggle
-- Particle effects for food pickup
-- Level map / obstacles mode
-- Leaderboard sync with backend API
+- Single-file implementation for straightforward review and portability
+- Improved visual hierarchy with a centered card-style UI
+- Cleaner state handling for `ready`, `playing`, `paused`, and `over`
+- Beginner/intermediate-friendly code organization and naming
