@@ -6,6 +6,10 @@ A polished browser-based Snake game built with vanilla HTML, CSS, and JavaScript
 
 ![preview](./1.png)
 
+## Live Demo
+
+[Play the game here](https://noah-art-eng.github.io/Snake-game/)
+
 ## Project Overview
 
 This project refines a classic Snake implementation into a cleaner frontend showcase while keeping the gameplay lightweight and easy to run locally.
