@@ -1,3 +1,6 @@
+![HTML](https://img.shields.io/badge/HTML-100%25-orange)
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+
 # Snake Game
 
 A polished browser-based Snake game built with vanilla HTML, CSS, and JavaScript, suitable for GitHub portfolio presentation.
